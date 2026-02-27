@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test your knowledge with this modern interactive quiz app">
+    <title>QuizMaster Pro | Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header with logo -->
+        <header>
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <h1>QuizMaster <span>Pro</span></h1>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </header>echo "# QuizMaster-Pro" >> README.md
+
+        <!-- Main Quiz Card -->
+        <main>
+            <div class="quiz-card" id="quiz">
+                <div class="quiz-header">
+                    <div class="progress-area">
+                        <div class="progress-stats">
+                            <span class="badge" id="question-counter">
+                                <i class="fas fa-question-circle"></i> 1/20
+                            </span>
+                            <span class="badge score-badge" id="score-badge">
+                                <i class="fas fa-star"></i> Score: 0
+                            </span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar" id="progressBar"></div>
+                        </div>
+                    </div>
+                    
+                    <h2 id="question" class="question-text">Loading question...</h2>
+                </div>
+
+                <div class="quiz-options">
+                    <ul>
+                        <li>
+                            <input type="radio" name="answer" id="a" class="answer-radio">
+                            <label for="a" id="a_text" class="option-label">
+                                <span class="option-letter">A</span>
+                                <span class="option-text">Option A</span>
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" name="answer" id="b" class="answer-radio">
+                            <label for="b" id="b_text" class="option-label">
+                                <span class="option-letter">B</span>
+                                <span class="option-text">Option B</span>
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" name="answer" id="c" class="answer-radio">
+                            <label for="c" id="c_text" class="option-label">
+                                <span class="option-letter">C</span>
+                                <span class="option-text">Option C</span>
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" name="answer" id="d" class="answer-radio">
+                            <label for="d" id="d_text" class="option-label">
+                                <span class="option-letter">D</span>
+                                <span class="option-text">Option D</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="quiz-footer">
+                    <button class="btn btn-primary" id="submit">
+                        <span>Submit Answer</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2026 QuizMaster Pro | Test Your Knowledge | R15</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
