@@ -39,12 +39,4 @@ Built as a frontend project to demonstrate strong JavaScript logic and clean UI 
 
 ---
 
-## 🚀 Run Locally
-
-```bash
-git clone https://github.com/your-username/QuizMaster-Pro.git
-
-
----
-
 If you want even **shorter (ultra minimal)** version for quick projects, tell me 😎
